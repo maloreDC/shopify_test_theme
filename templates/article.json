@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "sections": {
         "template": {
             "type": "template-article",
@@ -25,52 +24,3 @@
     },
     "order": ["template"]
 }
-=======
-  "sections": {
-    "template": {
-      "type": "template-article",
-      "blocks": {
-        "title": {
-          "type": "article_title",
-          "settings": {
-          }
-        },
-        "date": {
-          "type": "article_date",
-          "settings": {
-          }
-        },
-        "thumbnail": {
-          "type": "article_thumbnail",
-          "settings": {
-          }
-        },
-        "content": {
-          "type": "article_details",
-          "settings": {
-          }
-        },
-        "author": {
-          "type": "article_author",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "date",
-        "thumbnail",
-        "content",
-        "author"
-      ],
-      "settings": {
-        "enable_author": true,
-        "enable_date": true
-      }
-    }
-  },
-  "order": [
-    "template"
-  ]
-}
->>>>>>> 30999c9055f28cc120cc37bcb796c31077e50428
