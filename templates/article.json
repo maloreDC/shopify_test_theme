@@ -3,29 +3,23 @@
         "template": {
             "type": "template-article",
             "blocks": {
-                "title":{
+                "title": {
                     "type": "article_title"
                 },
-                "author":{
+                "author": {
                     "type": "article_author"
                 },
-                "date":{
-                    "type": "article_date"
+                "published_date": {
+                    "type": "article_published_date"
                 },
-                "thumbnail":{
-                    "type": "article_thumbnail"
+                "thumbnail": {
+                    "type": "featured_image"
                 },
-                "content":{
-                    "type": "article_details"
+                "content": {
+                    "type": "article_content"
                 }
             },
-            "block_order": [
-                "title",
-                "author",
-                "date",
-                "thumbnail",
-                "content"
-            ]
+            "block_order": ["thumbnail","title","published_date","author","content"]
         }
     },
     "order": ["template"]
