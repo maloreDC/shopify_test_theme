@@ -1,32 +1,48 @@
 {
-    "sections": {
-        "template": {
-            "type": "template-article",
-            "blocks": {
-                "title":{
-                    "type": "article_title"
-                },
-                "author":{
-                    "type": "article_author"
-                },
-                "date":{
-                    "type": "article_date"
-                },
-                "thumbnail":{
-                    "type": "article_thumbnail"
-                },
-                "content":{
-                    "type": "article_details"
-                }
-            },
-            "block_order": [
-                "title",
-                "author",
-                "date",
-                "thumbnail",
-                "content"
-            ]
+  "sections": {
+    "template": {
+      "type": "template-article",
+      "blocks": {
+        "title": {
+          "type": "article_title",
+          "settings": {
+          }
+        },
+        "thumbnail": {
+          "type": "article_thumbnail",
+          "settings": {
+          }
+        },
+        "content": {
+          "type": "article_details",
+          "settings": {
+          }
+        },
+        "author": {
+          "type": "article_author",
+          "settings": {
+          }
+        },
+        "date": {
+          "type": "article_date",
+          "settings": {
+          }
         }
-    },
-    "order": ["template"]
+      },
+      "block_order": [
+        "title",
+        "thumbnail",
+        "content",
+        "author",
+        "date"
+      ],
+      "settings": {
+        "enable_author": true,
+        "enable_date": true
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
 }
